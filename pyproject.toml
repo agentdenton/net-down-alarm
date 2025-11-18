@@ -19,3 +19,9 @@ net-down-alarm = "main:cli"
 
 [tool.setuptools]
 py-modules = ["main"]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.16.0",
+    "ruff>=0.14.5",
+]
