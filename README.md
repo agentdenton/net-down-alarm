@@ -26,6 +26,6 @@ net-down-alarm --file /path/to/your/alarm.mp3 -a 3 -p 60 -v 20
 ## Make an exe
 
 ```bash
-uv add pyinstaller
+uv add --dev pyinstaller
 uv run pyinstaller --onefile main.py --name net-down-alarm
 ```
